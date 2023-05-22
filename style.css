@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container .navbar{
+    width: 30%;
+    height: 750px;
+    background-color: rgba(198, 205, 214, 0.4);
+    text-align: center;
+    overflow: scroll;
+    position: absolute;
+}
+.navbar{
+    width: 350px;
+    height: 1000px;
+    background-color: #F5F5F5;
+    overflow: scroll;
+    overflow-x: hidden;
+    position: fixed;
+    
+}
+.navbar .logo{
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 30px;
+    
+}
+.navbar .logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: black;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 15px;
+    line-height: 40px;
+   
+        text-decoration: none;
+        font-size: 20px;
+        font-family: sans-serif;
+        margin-top: 30px;
+        text-align: center;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+.navbar ul li a:hover{
+    background-color: rgb(230, 230, 68);
+    border-radius: 5px;
+}
+
+.navbar .center p{
+    padding: 30px;
+   font-size: 20px;
+   
+}
+
+.navbar .center p a{
+    
+    color: black; 
+    text-decoration: none;
+    line-height: 50px;
+    color: brown;
+
+}
+.social a{
+    padding: 10px;
+}
+.navbar ul li a.active{
+text-decoration-line: underline;
+}
+
+
+.container2 {
+    
+    margin-left: 800px;
+top: 100px;
+
+}
+.container2 img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: 40px;
+}
+.container2 p{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.container2 h1{
+    margin-top: 10px;
+}
+
+.container2 h5{
+    position: relative;
+   
+    font-size: 18px;
+    width: 80%;
+    top: 10px;
+    right: 20%;
+    
+
+}
+.container2 .button a{
+    position: relative;
+    color: black;
+    font-size: 20px;
+    padding: 6px 13px;
+    text-decoration: none;
+    top: 20px;
+    
+    
+}
+.calculator{
+    position: relative;
+    top: 550px;
+    left: 30%;
+}
+
